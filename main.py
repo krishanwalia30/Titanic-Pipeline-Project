@@ -1,3 +1,6 @@
+from titanic.logging import logger
+from titanic.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline 
+
 STAGE_NAME = 'Data Ingestion Stage'
 
 try:
